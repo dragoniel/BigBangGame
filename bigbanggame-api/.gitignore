@@ -42,6 +42,7 @@ secrets.json
 
 # Launch settings (local development)
 **/Properties/launchSettings.json
+/BigBangGame.Api/Properties/PublishProfiles/
 
 # Generated files
 *.vsix

@@ -4,7 +4,7 @@ import type { ScoreboardEntry } from "./types/ScoreboardEntry";
 
 // const BASE = (import.meta as ImportMeta & { env: Record<string, string> }).env
 //   .VITE_API_URL ?? "";
-const BASE = import.meta.env.VITE_API_URL ?? "";
+const BASE = import.meta.env.VITE_API_URL ?? "http://localhost:5500/api";
 
 class ApiError extends Error {
   constructor(
