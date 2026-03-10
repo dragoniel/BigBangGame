@@ -1,5 +1,11 @@
+
 This project consists of a backend API built with ASP.NET Core located in the 'bigbanggame-api' folder 
 and a frontend UI application developed using React located in the 'bigbanggame-ui' folder.
+
+
+
+You can see it running here https://black-rock-0ac4a5410.2.azurestaticapps.net/
+
 
 
 ## Backend Setup
