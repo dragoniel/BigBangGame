@@ -1,7 +1,7 @@
 import { render, screen } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import { Scoreboard } from "../../components/Scoreboard";
-import type { ScoreboardEntry } from "../../types";
+import type { ScoreboardEntry } from "../../types/ScoreboardEntry";
 
 const makeEntry = (
   playerChoice: ScoreboardEntry["playerChoice"] = "rock",

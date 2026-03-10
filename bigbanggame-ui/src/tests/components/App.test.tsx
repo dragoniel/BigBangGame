@@ -2,7 +2,9 @@ import { render, screen, waitFor } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import App from "../../App";
 import { api } from "../../api";
-import type { Choice, PlayResult, ScoreboardEntry } from "../../types";
+import type { Choice } from "../../types/Choice";
+import type { PlayResult } from "../../types/PlayResult";
+import type { ScoreboardEntry } from "../../types/ScoreboardEntry";
 
 // Mock the entire API module — we test the UI in isolation from the network.
 jest.mock("../../api");

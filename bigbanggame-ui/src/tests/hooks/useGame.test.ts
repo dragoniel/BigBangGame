@@ -1,7 +1,9 @@
 import { renderHook, act, waitFor } from "@testing-library/react";
 import { useGame } from "../../hooks/useGame";
 import { api } from "../../api";
-import type { Choice, PlayResult, ScoreboardEntry } from "../../types";
+import type { Choice } from "../../types/Choice";
+import type { PlayResult } from "../../types/PlayResult";
+import type { ScoreboardEntry } from "../../types/ScoreboardEntry";
 
 jest.mock("../../api");
 const mockApi = api as jest.Mocked<typeof api>;

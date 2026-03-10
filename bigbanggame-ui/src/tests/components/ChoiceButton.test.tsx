@@ -1,7 +1,7 @@
 import { render, screen } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import { ChoiceButton } from "../../components/ChoiceButton";
-import type { Choice } from "../../types";
+import type { Choice } from "../../types/Choice";
 
 const rockChoice: Choice = { id: 1, name: "rock" };
 const spockChoice: Choice = { id: 5, name: "spock" };

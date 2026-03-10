@@ -1,6 +1,7 @@
 import { render, screen } from "@testing-library/react";
 import { ResultPanel } from "../../components/ResultPanel";
-import type { Choice, PlayResult } from "../../types";
+import type { PlayResult } from "../../types/PlayResult";
+import type { Choice } from "../../types/Choice";
 
 const choices: Choice[] = [
   { id: 1, name: "rock" },

@@ -9,8 +9,8 @@
   --red:       #ff3d5a;
   --gold:      #ffc94d;
   --glow:      rgba(0, 212, 255, 0.15);
-  --font-display: "Orbitron", monospace;
-  --font-body:    "Inter", sans-serif;
+  --font-display: "Verdana", monospace;
+  --font-body:    "Arial", sans-serif;
   --radius:    12px;
   --transition: 0.2s ease;
 }
@@ -25,7 +25,7 @@ body {
   font-size: 16px;
   line-height: 1.6;
   min-height: 100vh;
-  background-image: url('sheldonbg.png');
+  background-image: url('/sheldonbg.png');
   background-size: 500px;
   background-repeat: no-repeat;
   background-position:center top;
@@ -76,9 +76,10 @@ body {
 /* ── Section title ───────────────────────────────────────────────────────────── */
 .section-title {
   font-family: var(--font-display);
-  font-size: 0.8rem;
+  font-size: 1.2rem;
   letter-spacing: 0.25em;
   text-transform: uppercase;
+  background: rgba(0,0,0,0.6);
   color: var(--muted);
   text-align: center;
   margin-bottom: 2rem;
@@ -179,7 +180,7 @@ body {
 
 .result-label {
   font-family: var(--font-display);
-  font-size: 0.6rem;
+  font-size: 0.8rem;
   letter-spacing: 0.25em;
   color: var(--muted);
 }
@@ -198,7 +199,7 @@ body {
 
 .result-vs {
   font-family: var(--font-display);
-  font-size: 0.75rem;
+  font-size: 0.9rem;
   font-weight: 700;
   letter-spacing: 0.2em;
   color: var(--muted);
@@ -224,7 +225,7 @@ body {
 /* ── Play again ──────────────────────────────────────────────────────────────── */
 .play-again-btn {
   font-family: var(--font-display);
-  font-size: 0.75rem;
+  font-size: 0.9rem;
   letter-spacing: 0.2em;
   text-transform: uppercase;
   background: transparent;
@@ -257,7 +258,7 @@ body {
 
 .scoreboard-header h2 {
   font-family: var(--font-display);
-  font-size: 0.7rem;
+  font-size: 0.9rem;
   letter-spacing: 0.3em;
   text-transform: uppercase;
   color: var(--muted);
@@ -265,7 +266,8 @@ body {
 
 .reset-btn {
   font-family: var(--font-display);
-  font-size: 0.65rem;
+  font-size: 0.9rem;
+  font-weight: bolder;
   letter-spacing: 0.15em;
   text-transform: uppercase;
   background: transparent;
@@ -300,7 +302,7 @@ body {
 
 .scoreboard-table th {
   font-family: var(--font-display);
-  font-size: 0.6rem;
+  font-size: 0.9rem;
   letter-spacing: 0.2em;
   text-transform: uppercase;
   color: var(--muted);

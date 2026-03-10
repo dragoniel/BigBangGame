@@ -1,5 +1,5 @@
 import { EMOJI, OUTCOME_CONFIG } from "../constants"
-import type { ChoiceName, GameResult } from "../types";
+import type { ChoiceName, GameResult } from "../types/enums";
 
 describe("EMOJI", () => {
   const choiceNames: ChoiceName[] = ["rock", "paper", "scissors", "lizard", "spock"];
