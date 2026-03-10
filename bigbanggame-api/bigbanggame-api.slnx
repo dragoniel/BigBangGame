@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="BigBangGame.Api/BigBangGame.WebApi.csproj" />
+  <Project Path="BigBangGame.Application/BigBangGame.Application.csproj" />
+  <Project Path="BigBangGame.Domain/BigBangGame.Domain.csproj" />
+  <Project Path="BigBangGame.Infrastructure/BigBangGame.Infrastructure.csproj" />
+  <Project Path="BigBangGame.Tests/BigBangGame.Tests.csproj" />
+</Solution>

@@ -1,0 +1,47 @@
+# Ignore build outputs
+bin/
+obj/
+out/
+
+# Visual Studio temporary files, build results, and user-specific files
+.vs/
+.vscode/
+
+# Rider project files
+.idea/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# NuGet packages
+*.nupkg
+packages/
+
+# Dotnet tools
+/.dotnet/tools/
+
+# Test results
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+coverage.*
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Secrets
+secrets.json
+
+# Launch settings (local development)
+**/Properties/launchSettings.json
+
+# Generated files
+*.vsix
